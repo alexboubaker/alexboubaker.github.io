@@ -31,3 +31,7 @@ li {
 a {
     text-decoration: none;
 }
+
+#basketball {
+    background-image: url(./images/court.jpg);
+}
