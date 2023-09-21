@@ -34,4 +34,6 @@ a {
 
 #basketball {
     background-image: url(./images/court.jpg);
+    height: 1280px;
+    width: 1080px;
 }
