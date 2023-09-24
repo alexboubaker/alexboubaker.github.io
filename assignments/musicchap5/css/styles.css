@@ -17,11 +17,13 @@ img {
 
 /* stle rules for mobile viewport */
 
-
+.tab-desk {
+    display: none;
+}
 
 header {
     text-align: center;
-    font-size: 3em;
+    font-size: 1.5em;
     color: #373684;
 }
 
