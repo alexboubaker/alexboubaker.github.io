@@ -15,6 +15,25 @@ img {
     display: block;
 }
 
+/* style rules for mobile viewport */
+.mobile {
+    display: block;
+}
+
+.tab-desk {
+    display: none;
+}
+
+/* style rules for header area */
+
+.mobile h1 h3 {
+    padding: 2%;
+    text-align: center;
+}
+/*style rules to show mobile clas and hide tab-desk class */
+
+
+
 
 /* style rules for navigation */
 
