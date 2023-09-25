@@ -43,15 +43,15 @@ nav {
 
 nav ul {
     list-style: none;
-    margin: 0;
     text-align: center;
 }
 
 nav li {
-    display: inline-block;
+    display: block;
     font-size: 1.25em;
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
+    border-top: 0.5px solid #f6eee4;
 }
 
 nav li a {
@@ -101,10 +101,30 @@ main ul {
     text-align: center;
 }
 
+.round {
+    border-radius: 6px;
+}
+
+#info ul {
+    margin-left: 10%;
+}
+
 #contact {
     text-align: center;
 }
 
+.tel-link {
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tel-link a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 /* style rules for footer */
 
