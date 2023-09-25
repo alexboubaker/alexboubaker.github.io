@@ -64,6 +64,9 @@ nav li a {
     text-decoration: none;
 }
 
+/*stye rules for main content */
+
+
 /* style rules for main content */
 
 main {
@@ -116,4 +119,12 @@ footer {
 footer a {
     color: #f3e6d8;
     text-decoration: none;
+}
+
+.mobile h1 {
+font-family: 'Emblema One', cursive;
+}
+
+.mobile h3 {
+font-family: 'Lora', serif;
 }
