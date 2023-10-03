@@ -1,0 +1,170 @@
+body, main, header, nav, footer {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* all the rules for the header and nav */
+.heading h1 {
+    float: right;
+    color: white;
+    position: absolute;
+}
+nav {
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inli;
+    float: right;
+    margin-right: 2%;
+    padding: 20px 20px;
+    font-size: 1.5em;
+}
+nav li a:hover {
+    color: black;
+    background-color: white;
+}
+nav li a:active {
+    font-size: 1.1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.logo {
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 2.2em;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+
+/* this is the picture with the quote */
+
+.picture {
+    margin-top: -3%;
+    background-image: url(../images/stars.jpg);
+    height: 50%;
+    width: 100%;
+    background-size: contain;
+}
+
+.picture p {
+    font-size: 5em;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding: 5%;
+}
+
+
+/* this is for the first section */
+
+.pic1 {
+    max-width: 40%;
+    max-height: 30%;
+    float: left;
+}
+.text {
+    float: right;
+    font-size: 1.5em;
+    max-width: 70%;
+    margin-right: 10%;
+}
+.container {
+    margin: 50px;
+    padding: 0;
+    border: 0;
+}
+
+/* section 2 */
+
+
+.text2 {
+    float: left;
+    font-size: 1.5em;
+    max-width: 100%;
+    margin-top: 6%;
+    padding: 0 5% 5%;
+    background-color: rgb(244, 244, 244);
+    
+}
+
+.text2 h2 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/*section 3 */
+
+.images {
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    border-radius: 50px;
+    margin: 6% 2%;
+}
+
+/* footer stuff */
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 3%;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer a:hover {
+    padding: 12px;
+}
+footer h2 {
+    margin-top: -5px;
+}
+
+/* inof page */
+.wrapperinfo {
+    text-align: center;
+    margin-top: -5%;
+}
+
+.wrapperinfo p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 2 10%;
+    padding: 0 5%;
+}
+.wrapperinfo h1 {
+    font-size: 3em;
+}
