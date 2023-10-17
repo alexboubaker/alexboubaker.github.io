@@ -4,7 +4,7 @@ alexander boubaker
 styles.css
 */
 
-body, header, nav, main, footer, img, h1 {
+body, header, nav, main, footer, img, h1, section, aside, figure, figcaption {
     margin: 0;
     border: 0;
     padding: 0;
@@ -15,7 +15,7 @@ img {
     display: block;
 }
 
-/* stle rules for mobile viewport */
+/* style rules for mobile viewport */
 
 .tab-desk {
     display: none;
@@ -134,6 +134,40 @@ footer a {
     text-decoration: none;
 }
 
+/* style rule for box sizing applies to all elements. */
+
+* {
+    box-sizing: border-box;
+}
+
+aside {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #373684;
+    text-shadow: 3px 3px 10px #8280cb;
+}
+
+figure {
+    position: relative;
+    max-width: 275px;
+    margin: 2% auto;
+    border: 8px solid #373684;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(55, 54, 132, 0.7);
+    color: #fff;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 /* media query for tablet viewport */
 @media screen and (min-width: 550px), print {
     .tab-desk {
@@ -173,7 +207,15 @@ footer a {
         height: 450px;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: 2;
+        grid-gap: 20px;
+    }
 
+    aside {
+        grid-column: 1/ span 2;
+    }
 
 
 
@@ -207,6 +249,18 @@ footer a {
         width: 29%;
         float: left;
         margin: 0 2%;
+    }
+
+    .grid {
+        grid-template-columns: 4;
+    }
+
+    figcaption {
+        font-size: 1em;
+    }
+
+    aside {
+        grid-column: 1/ span 4;
     }
 
 
