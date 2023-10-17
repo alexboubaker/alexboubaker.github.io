@@ -1,5 +1,5 @@
 /* style reset fr sections */
-body, header, nav, main, footer, img h1, h3 {
+body, header, nav, main, footer, img h1, h3, aside, figure, figcaption {
     margin: 0;
     border: 0;
     padding: 0;
@@ -105,6 +105,25 @@ main ul {
     border-radius: 6px;
 }
 
+aside {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 4px 4px solid #2a1f14;
+}
+
+figure {
+    border: 4px solid #2a1f14;
+    box-shadow: 6px 6px solid #2a1f14;
+    max-width: 400px;
+    margin: 2% auto;
+}
+
+figcaption {
+    padding: 2%;
+    border-top: 4px solid #2a1f14;
+}
+
 #info ul {
     margin-left: 10%;
 }
@@ -171,6 +190,16 @@ font-family: 'Lora', serif;
         padding: 0.5em;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: 2;
+        grid-gap: 10px;
+    }
+
+    aside {
+        grid-column: 1 / span 2;
+    }
+
 
     /*media query for large desktop viewports */
 
@@ -185,6 +214,14 @@ font-family: 'Lora', serif;
     main {
         background-color: #f6eee4;
     }
+    .grid {
+        grid-template-columns: 4;
+    }
+    aside {
+        grid-column: 1 / span 4;
+        font-size: 3em;
+    }
+
 }
 
 /* media query for print */
@@ -207,12 +244,24 @@ font-family: 'Lora', serif;
         nav li:hover {
             color: #2a1f14;
             background-color: #f6eee4;
+            opacity: 0.5;
         }
 
 
         /* style rules ofr main content */
         #info ul {
             margin-left: 5%;
+        }
+
+    
+        .grid {
+            grid-template-columns: 3;
+            grid-gap: 30px;
+        }
+    
+        aside {
+            grid-column: 1 / span 3;
+            font-size: 2em;
         }
     }
 }
