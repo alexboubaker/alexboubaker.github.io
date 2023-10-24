@@ -75,6 +75,63 @@
             <a href="https://www.google.com/maps/place/Ocala,+FL/@29.1738854,-82.1568079,12z/data=!3m1!4b1!4m6!3m5!1s0x88e62b541cba3ce5:0xf5f53be4b1380536!8m2!3d29.1871986!4d-82.1400923!16zL20vMHJuMHo?entry=ttu/" target="_blank">Address: 8989 Rescue Drive, Ocala, FL 34471</a>
         </p>
     </div>
+
+    <div id="form">
+        <h2>Complete the form below and we will contact you soon.</h2>
+
+        <form class="form-grid"><!--Start Form-->
+
+            <fieldset>
+                <legend>Contact information</legend>
+
+                <label for="fName">First name:</label>
+                <input type="text" name="fName" id="fName">
+
+                <lable for="1Name">Last name:</lable>
+                <input type="text" name="1Name" id="1Name">
+
+                <label for="bName">Bussiness:</label>
+                <input type="text" name="bName" id="bName">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+
+                <lable for="phone">Phone:</lable>
+                <input type="tel" name="phone" id="phone">
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional information</legend>
+
+                <p>I would like more information about:</p>
+
+                <label for="vol">
+                    <input type="radio" name="info" id="vol" value="Volunteering">Volunteering
+                </label>
+
+                <label for="sponser">
+                    <input type="radio" name="info" id="sponser" value="Sponsorship Oppurtunities">Sponsorship Oppurtunities
+                </label>
+
+                <label for="wild">
+                    <input type="radio" name="info" id="wild" value="Wildlife">Wildlife
+                </label>
+
+                <label for="other">
+                    <input type="radio" name="info" id="other" value="other">Please specify below
+                </label>
+
+                <label for="questions">
+                    What questions do you have for us?
+                </label>
+
+                <textarea name="questions" id="questions"></textarea>
+            </fieldset>
+
+            <button type="submit" id="submit" value="submit" class="btn"></button>
+
+        </form>
+    </div>
 </main>
 
 <footer>
