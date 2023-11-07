@@ -161,6 +161,7 @@ fieldset {
 label {
     display: block;
     padding-top: 2%;
+    max-width: 100%;
 }
 
 #submit {
